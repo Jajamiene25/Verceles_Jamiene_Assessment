@@ -1,4 +1,29 @@
-.div1 {
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.4em;
+  text-decoration: none;
+}
+.text-custom {
+  color: #ff7600;
+}
+
+#about {
+  padding: 20px 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf6f0;
+}
+
+#about .content-1,
+#about .content-2,
+#about .content-3 {
+  background-color: #fdf6f0;
+  padding-top: 40px;
+}
+.content-1 {
   display: flex;
   float: left;
   width: 33%;
@@ -6,7 +31,7 @@
   text-align: center;
   padding-top: 20px 20px;
 }
-.div2 {
+.content-2 {
   float: left;
   width: 33%;
   overflow: hidden;
@@ -14,7 +39,7 @@
   padding-top: 20px 20px;
   display: flex;
 }
-.div3 {
+.content-3 {
   float: left;
   width: 33%;
   overflow: hidden;
