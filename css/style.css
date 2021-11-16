@@ -1,0 +1,31 @@
+.div1 {
+  display: flex;
+  float: left;
+  width: 33%;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px 20px;
+}
+.div2 {
+  float: left;
+  width: 33%;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px 20px;
+  display: flex;
+}
+.div3 {
+  float: left;
+  width: 33%;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px 20px;
+  display: flex;
+}
+i {
+  background-color: #f8e2cf;
+  border-radius: 50%;
+  border: #f8e2cf;
+  padding: 10px;
+  margin: auto;
+}
